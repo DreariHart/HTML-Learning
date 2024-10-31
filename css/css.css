@@ -127,6 +127,18 @@ section {
     ;
 }
 
+/********** Archive Styles **********/
+
+body.full-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.active {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 750px) {
     .people {
         grid-template-columns: repeat(3, 1fr);
