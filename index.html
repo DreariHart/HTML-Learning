@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Getting Started With HTML </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+
+<!-- Body is for the visible stuff -->
+
+<body>
+
+
+    <!-- Header section-->
+    <header class="head-grid">
+        <div>
+            <img src="images/Title.svg" alt="Museum of ME">
+        </div>
+        <div class="meta">
+            <p class="date"> as of 10.10.2024</p>
+        </div>
+        <nav>
+            <a href="archive.html">archive</a>
+            <a href="log.html">log</a>
+        </nav>
+    </header>
+
+    <!-- Most Commonly Used Items-->
+    <section class="purp-bkg">
+        <h2> 01 | Most Commonly Used Items</h2>
+        <model-viewer src="images/slippers.glb" auto-rotate camera-controls>
+        </model-viewer>
+    </section>
+
+    <!-- People I See-->
+    <section class="pnk-bkg">
+        <h2> 02 | People I See</h2>
+        <div class="people">
+            <div>
+                <img src="images/people/leanne.png" alt="Leanne">
+                <p>Person 1</p>
+            </div>
+            <div>
+
+                <img src="images/people/matthew.png" alt="Matthew">
+                <p>Person 2</p>
+            </div>
+            <div>
+                <img src="images/people/person.png" alt="Person 3">
+                <p>Person 3</p>
+            </div>
+            <div>
+                <img src="images/people/person1.png" alt="Person 4">
+                <p>Person 4</p>
+            </div>
+            <div>
+                <img src="images/people/person2.png" alt="Person 5">
+                <p>Person 5</p>
+            </div>
+            <div>
+                <img src="images/people/person3.png" alt="Person 6">
+                <p>Person 6</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Routine-->
+
+    <section class="grn-bkg">
+        <h2> 03 | Daily Routine</h1>
+    </section>
+
+    <!-- Always In My Fridge-->
+
+    <section class="pnk-bkg">
+        <h2> 04 | Always In My Fridge</h1>
+            <div class="the-fridge">
+                <div>
+                    <img src="images/fridgeItems/eggs.webp" alt="Eggs">
+                </div>
+                <div class="large-item">
+                    <img src="images/fridgeItems/cottage-cheese.png" alt="Cottage Cheese">
+                </div>
+                <div>
+                    <img src="images/fridgeItems/dubliner.png" alt="Dubliner">
+                </div>
+                <div>
+                    <img src="images/fridgeItems/pickles.png" alt="Pickles">
+                </div>
+                <div>
+                    <img src="images/fridgeItems/siracha.jpg" alt="Siracha">
+                </div>
+                <div>
+                    <img src="images/fridgeItems/wine.webp" alt="Wine">
+                </div>
+                <div>
+                    <img src="images/fridgeItems/yogurt.png" alt="Yogurt">
+                </div>
+            </div>
+    </section>
+
+    <!-- Common Views-->
+
+    <section class="purp-bkg">
+        <div class ="wrapper">
+        <h2> 05 | Common Views</h1>
+            <div>
+                <img src="images/views/computer.jpg" alt="Computer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <nav>
+            <a href="archive.html">archive</a>
+            <a href="log.html">log</a>
+        </nav>
+        <p class="meta"> © Museum of Mostly Everything 2024</p>
+    </footer>
+</body>
+
+</html>
